@@ -57,25 +57,30 @@ public class Agente {
     @OneToMany(mappedBy = "agente", cascade = CascadeType.ALL, orphanRemoval = true)
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
-    private List<MetricaRendimiento> metricas;
+    @Builder.Default
+    private List<MetricaRendimiento> metricas = new java.util.ArrayList<>();
 
     @OneToMany(mappedBy = "agente", cascade = CascadeType.ALL, orphanRemoval = true)
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
-    private List<ConfiguracionReporte> configuracionesReporte;
+    @Builder.Default
+    private List<ConfiguracionReporte> configuracionesReporte = new java.util.ArrayList<>();
 
     @OneToMany(mappedBy = "agente", cascade = CascadeType.ALL, orphanRemoval = true)
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
-    private List<HistorialNotificacion> historialNotificaciones;
+    @Builder.Default
+    private List<HistorialNotificacion> historialNotificaciones = new java.util.ArrayList<>();
 
     @OneToMany(mappedBy = "agente", cascade = CascadeType.ALL, orphanRemoval = true)
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
-    private List<ObjetivoMensual> objetivosMensuales;
+    @Builder.Default
+    private List<ObjetivoMensual> objetivosMensuales = new java.util.ArrayList<>();
 
     @OneToMany(mappedBy = "agente", cascade = CascadeType.ALL, orphanRemoval = true)
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
-    private List<EventoCalendario> eventosCalendario;
+    @Builder.Default
+    private List<EventoCalendario> eventosCalendario = new java.util.ArrayList<>();
 }

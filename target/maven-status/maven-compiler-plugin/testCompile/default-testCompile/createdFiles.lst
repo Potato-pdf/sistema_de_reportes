@@ -1,0 +1,3 @@
+com\quarksoft\reportes\integration\DatabaseIntegrationTest.class
+com\quarksoft\reportes\service\AgenteServiceTest.class
+com\quarksoft\reportes\controller\AgenteControllerIntegrationTest.class

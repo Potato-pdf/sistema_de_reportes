@@ -1,0 +1,36 @@
+{
+  "destinatario": "danielojeda16vvz@gmail.com",
+  "tipo": "personalizado",
+  "formato": "html",
+  "datos": {
+    "titulo": "Reporte de Desempeño de Cesar Damian Bernal Cruz",
+    "descripcion": "Reporte completo generado para el agente Cesar Damian Bernal Cruz correspondiente al periodo 2025-Q2.",
+    "nombre": "Cesar Damian",
+    "apellidoPaterno": "Bernal",
+    "apellidoMaterno": "Cruz",
+    "email": "playcanada513@gmail.com",
+    "telefono": "5551234567",
+    "territorio": "Centro",
+    "fechaContratacion": "2023-01-01",
+    "fechaNacimiento": "1995-05-10",
+    "activo": true,
+    "totalPolizasVendidas": 42,
+    "totalClientes": 37,
+    "objetivoTrimestral": 40,
+    "cumplimientoObjetivo": "105%",
+    "comisionesAcumuladas": 18500.75,
+    "polizasPorTipo": {
+      "Vida": 20,
+      "Auto": 15,
+      "Gastos Médicos": 7
+    },
+    "topClientes": [
+      "Empresa ABC S.A.",
+      "Juan Pérez",
+      "María López"
+    ],
+    "ultimaVenta": "2025-06-15",
+    "proximaCita": "2025-06-25",
+    "notas": "Excelente desempeño este trimestre. Se recomienda mantener el enfoque en clientes corporativos y reforzar seguimiento post-venta."
+  }
+}

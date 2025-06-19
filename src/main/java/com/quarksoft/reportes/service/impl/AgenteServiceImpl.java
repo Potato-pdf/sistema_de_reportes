@@ -32,6 +32,16 @@ public class AgenteServiceImpl implements AgenteService {
     public AgenteDTO create(AgenteDTO dto) {
         Agente agente = new Agente();
         BeanUtils.copyProperties(dto, agente);
+        // Inicializar campos obligatorios si vienen null
+        if (agente.getActivo() == null) {
+            agente.setActivo(true);
+        }
+        if (agente.getCreatedAt() == null) {
+            agente.setCreatedAt(java.time.LocalDateTime.now());
+        }
+        if (agente.getUpdatedAt() == null) {
+            agente.setUpdatedAt(java.time.LocalDateTime.now());
+        }
         agente = agenteRepository.save(agente);
         return toDTO(agente);
     }

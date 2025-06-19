@@ -47,5 +47,12 @@ public class MetricaRendimiento {
     private LocalDateTime createdAt = LocalDateTime.now();
 
     // Getters y setters
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
     // ...
 }
