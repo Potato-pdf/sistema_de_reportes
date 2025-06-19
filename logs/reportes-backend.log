@@ -6396,3 +6396,63 @@ Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1004E:
 2025-06-19 16:51:02 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-06-19 16:51:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
 2025-06-19 16:51:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-06-19 16:51:12 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-06-19 16:51:12 [main] INFO  c.q.r.ReportesBackendApplication - Starting ReportesBackendApplication using Java 17.0.12 with PID 4280 (C:\Users\damia\Documents\PROYECTO_ESTADIAS_2025\target\classes started by damia in C:\Users\damia\Documents\PROYECTO_ESTADIAS_2025)
+2025-06-19 16:51:12 [main] INFO  c.q.r.ReportesBackendApplication - The following 1 profile is active: "dev"
+2025-06-19 16:51:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-19 16:51:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 118 ms. Found 8 JPA repository interfaces.
+2025-06-19 16:51:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-19 16:51:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-19 16:51:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-19 16:51:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-06-19 16:51:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-19 16:51:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2408 ms
+2025-06-19 16:51:15 [main] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-06-19 16:51:15 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-19 16:51:15 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-06-19 16:51:15 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-06-19 16:51:16 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-19 16:51:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-06-19 16:51:16 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14c5283
+2025-06-19 16:51:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-06-19 16:51:17 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-19 16:51:17 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-19 16:51:18 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-19 16:51:18 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 47 mappings in 'requestMappingHandlerMapping'
+2025-06-19 16:51:18 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-06-19 16:51:18 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+2025-06-19 16:51:18 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2aafd790, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@340b7fca, org.springframework.security.web.context.SecurityContextHolderFilter@5935ade6, org.springframework.security.web.header.HeaderWriterFilter@6e18bc2f, org.springframework.web.filter.CorsFilter@4ab8c3c0, org.springframework.security.web.authentication.logout.LogoutFilter@71443983, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f64f47a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f81b020, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2978d342, org.springframework.security.web.session.SessionManagementFilter@6a9e88f1, org.springframework.security.web.access.ExceptionTranslationFilter@3c22a99a, org.springframework.security.web.access.intercept.AuthorizationFilter@194feb27]
+2025-06-19 16:51:18 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-06-19 16:51:18 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-06-19 16:51:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-06-19 16:51:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-06-19 16:51:19 [main] INFO  c.q.r.ReportesBackendApplication - Started ReportesBackendApplication in 7.119 seconds (process running for 7.66)
+2025-06-19 16:51:24 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 16:51:24 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-19 16:51:24 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-06-19 16:51:24 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-06-19 16:51:24 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-06-19 16:51:24 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@69a8617c
+2025-06-19 16:51:24 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3299cc9f
+2025-06-19 16:51:24 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-06-19 16:51:24 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-06-19 16:51:24 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/reportes/enviar' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-06-19 16:51:24 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/reportes/enviar' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-06-19 16:51:24 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/reportes/enviar", parameters={}
+2025-06-19 16:51:24 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quarksoft.reportes.controller.ReporteController#enviarReporte(ReporteRequest)
+2025-06-19 16:51:24 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [ReporteController.ReporteRequest(agenteId=null, tipo=personalizado, formato=html, destinatario=playc (truncated)...]
+2025-06-19 16:51:24 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-06-19 16:51:24 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ReporteController.ReporteResponse(status=OK, mensaje=Reporte enviado exitosamente)]
+2025-06-19 16:51:24 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-06-19 16:52:58 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/reportes/enviar", parameters={}
+2025-06-19 16:52:58 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quarksoft.reportes.controller.ReporteController#enviarReporte(ReporteRequest)
+2025-06-19 16:52:58 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [ReporteController.ReporteRequest(agenteId=null, tipo=personalizado, formato=html, destinatario=danie (truncated)...]
+2025-06-19 16:52:58 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-06-19 16:52:58 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ReporteController.ReporteResponse(status=OK, mensaje=Reporte enviado exitosamente)]
+2025-06-19 16:52:58 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-06-19 16:53:30 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/reportes/enviar", parameters={}
+2025-06-19 16:53:30 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quarksoft.reportes.controller.ReporteController#enviarReporte(ReporteRequest)
+2025-06-19 16:53:30 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [ReporteController.ReporteRequest(agenteId=null, tipo=personalizado, formato=html, destinatario=danie (truncated)...]
+2025-06-19 16:53:30 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-06-19 16:53:30 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ReporteController.ReporteResponse(status=OK, mensaje=Reporte enviado exitosamente)]
+2025-06-19 16:53:30 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
