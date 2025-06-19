@@ -1,0 +1,27 @@
+spring:
+  profiles: test
+  datasource:
+    url: jdbc:postgresql://localhost:5432/reportes_db_test
+    username: reportes_user
+    password: reportes_pass
+    hikari:
+      maximum-pool-size: 5
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+logging:
+  level:
+    root: ERROR
+  file:
+    name: logs/reportes-backend-test.log
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+jwt:
+  secret: "cambia_esto_por_un_secreto_test"
+  expiration: 86400000
